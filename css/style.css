@@ -1,0 +1,77 @@
+body {
+  background-color: yellow;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  margin-bottom: 25px;
+  color:black;
+  font-weight: 900;
+}
+
+h4 {
+    font-family: "Kumar One", sans-serif;
+    font-weight: 900;
+}
+
+#searchbar {
+  background-color: ;
+  border-radius: 100px;
+  border: solid black 6px;;
+  width: 52.5px;
+  height: 52.5px;
+  -webkit-transition: width .5s ease-out;
+  transition: width .5s ease-out;
+}
+
+#searchbar:hover {
+  width: 167px;
+}
+
+.boxes {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: solid 2px;
+  text-align: left;
+  max-width: 900px;  
+}
+
+a {
+  color: black;
+  textcoration: none;
+}
+
+.buttons {
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-right:10px;
+  width: 100px;
+  color: white;
+  padding: 5px;
+  border: solid black 1px;
+  box-shadow: black 2px 3px 5px;
+  background-color: black;
+  -webkit-transition: box-shadow .25s;
+  transition: box-shadow .25s;
+}
+
+.buttons:hover {
+  box-shadow: #262626 3px 3px 10px;
+  color:white;
+  text-decoration: none;
+}
+
+#randompage{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+#box {
+  text-align: center;
+  margin-top: 150px;
+  -webkit-transition: margin-top .5s;
+  transition: margin-top .5s;  
+}
+
